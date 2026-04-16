@@ -7,5 +7,6 @@ class Solution {
         Arrays.sort(b);
         return Arrays.equals(a, b);
         //simple but slow
+        // O(n log(n))
     }
 }
